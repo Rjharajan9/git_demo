@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: #270082;
+}
+.left-nav{
+    padding: 10px;
+    margin-left: 60px;
+    flex: 2;
+}
+.left-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+}
+.right-nav{
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 80px;
+    flex: 0.8;
+}
+.right-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+.container{
+    background: url('img/hero-img2.png') no-repeat center center;
+    background-size: cover;
+    height: 95vh;
+}
+.content{
+    color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 200px;
+}
+.content h1{
+    font-size: 86px;
+    padding-top: 50px;
+}
+.content h3{
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.content p{
+    padding: 0px 150px;
+    text-align: center;
+    font-size: 16px;
+}
+.container2{
+    background-color: #1f0c43;
+    padding-bottom: 350px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 80px;
+}
+.content2 h1{
+    color: white;
+    font-size: 50px;
+}
+.content2 h3{
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+}
+.content2 p{
+    color: rgb(216, 216, 216);
+    font-size: 16px;
+    padding: 0px 150px;
+    text-align: center;
+    line-height: 2;
+}
+.content2 button{
+    background-color: rgba(255, 0, 0, 0.855);
+    border: none;
+    padding: 9px 9px;
+    border-radius: 4px;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+.ipad{
+    display: flex;
+    justify-content: center;
+}
+.ipad img{
+    margin-top: -450px;
+    position: relative;
+    top: 50px;
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+.content3 h2{
+    font-size: 27px;
+    padding-top: 10px;
+}
+.content3 p{
+    font-size: 16px;
+    padding: 0px 150px;
+    text-align: center;
+    line-height: 1.8;
+}
+.content3 button{
+    background-color: #270082;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+.container4{
+    background: url('img/video.png')  no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
+.container5{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(255, 255, 235);
+}
+.card{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.card img{
+    height: 270px;
+}
+.content5{
+    padding-right: 60px;
+}
+.content5 h1{
+    padding: 10px;
+    font-size: 40px;
+}
+.content5 p{
+    font-size: 16px;
+    padding: 10px;
+    line-height: 2;
+}
+.content5 button{
+    background-color: #270082;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 1px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.container6{
+    background-color: #210c47;
+}
+.content6{
+    display: flex;
+    padding: 40px 120px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px;
+    text-transform: capitalize;
+}
+.links h3{
+    padding: 10px 0px;
+    font-size: 19px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.links ul{
+    list-style: none;
+}
+.links li{
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(206, 206, 206);
+}
+.footer{
+    background-color: #270082;
+    padding: 8px;
+}
+.footer p{
+    display: flex;
+    font-size: 12px;
+    color: antiquewhite;
+    justify-content: center;
+}
