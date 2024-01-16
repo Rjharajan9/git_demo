@@ -1,0 +1,14 @@
+
+        p{
+            /* All p tag text will change in this style */
+            background-color: brown; /* Background color changes to brown */
+            color: black;  /* Text color changes to Black */
+            font-weight: 500px;
+        }
+
+        h2{
+            /* All h2 tag text will change in this style */
+            background-color: red;  /* Background color changes to red */
+            color: yellow;   
+            font: 100;
+        }

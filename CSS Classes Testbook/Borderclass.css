@@ -1,0 +1,90 @@
+h2{
+    color: red;
+}
+
+.Basic_Border {
+    border-style: solid;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-right-style: double;
+ 
+}
+
+.Single_Line_Code_Border{
+
+   /* border-style: top right bottom left */
+   border-style: solid dotted dashed none;
+}
+
+.Single_Line_Code_Border_only_for_Two_Value{
+    /* border-style: top-bottom left-righ ; only for two value */
+    border-style: double dotted;
+}
+
+
+.Top_Border{
+    border-style: solid none none none;
+}
+
+
+.Right_Border{
+    border-style: none dashed none none ;
+}
+
+
+.Bottom_Border{
+    border-style: none none dotted none;
+}
+
+
+.Left_Border{
+    border-style: none none none dashed ;
+}
+
+.Top_Border_in_single_line {
+    border-top-style: dashed; 
+}
+
+.Bottom_Border_in_single_line {
+    border-bottom-style: dotted; 
+}
+
+
+.Right_Border_in_single_line {
+    border-right-style: double; 
+}
+
+.Left_Border_in_single_line {
+    border-Left-style: solid; 
+}
+
+/*  To set border width ----- thick, medium, thin 
+     border-top-width: ---> to set the top width 
+      border-bottom-width: ---> to set the bottom width 
+       border-left-width: ---> to set the left width 
+        border-right-width: ---> to set the right width 
+*/
+.Border_Width{
+   border-style: dotted double;
+   border-width: thick;
+}
+
+
+.Border_Color{
+    border-style: dotted double;
+    border-width: thick;
+    border-color:blue;
+ }
+
+ a{
+    border: solid;
+    padding: 2px 4px;
+    color: red;
+    border-width: 4px;
+    border-radius: 10px;
+ }
+
+ a:hover{
+    color: blue;
+    background-color: blueviolet;
+ }

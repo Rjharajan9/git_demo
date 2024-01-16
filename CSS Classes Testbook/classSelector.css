@@ -1,0 +1,16 @@
+
+h2,p{
+    /* All p tag text will change in this style */
+    background-color: rgb(9, 185, 12); /* Background color changes to brown */
+    color: black;  /* Text color changes to Black */
+    font-weight: 500px;
+}
+
+.colour {
+    /* All p tag text will change in this style */
+    background-color: rgb(50, 9, 185); /* Background color changes to brown */
+    color: rgb(203, 18, 18);  /* Text color changes to Black */
+    font-weight: 500px;
+}
+
+
